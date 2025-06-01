@@ -5,11 +5,8 @@
   "main": ".vite/build/index.js",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && electron-forge package",
-    "lint": "eslint . --ext .js,.vue",
-    "start": "electron-forge start",
-    "package": "electron-forge package",
-    "make": "electron-forge make"
+    "build": "vite build",
+    "lint": "eslint . --ext .js,.vue"
   },
   "keywords": [
     "electron",

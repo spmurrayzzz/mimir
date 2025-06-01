@@ -7,30 +7,30 @@ import { join } from 'path';
 export default defineConfig({
   plugins: [
     vue(),
-    electron([
-      {
-        // Main process entry
-        entry: 'src/main/index.js',
-        vite: {
-          build: {
-            outDir: '.vite/build',
-            rollupOptions: {
-              external: ['electron'],
-            },
-          },
-        },
-      },
-      {
-        // Preload scripts
-        entry: 'electron/preload.js',
-        vite: {
-          build: {
-            outDir: '.vite/build',
-          },
-        },
-      },
-    ]),
-    renderer(),
+    // electron([
+    //   {
+    //     // Main process entry
+    //     entry: 'src/main/index.js',
+    //     vite: {
+    //       build: {
+    //         outDir: '.vite/build',
+    //         rollupOptions: {
+    //           external: ['electron'],
+    //         },
+    //       },
+    //     },
+    //   },
+    //   {
+    //     // Preload scripts
+    //     entry: 'electron/preload.js',
+    //     vite: {
+    //       build: {
+    //         outDir: '.vite/build',
+    //       },
+    //     },
+    //   },
+    // ]),
+    // renderer(),
   ],
   resolve: {
     alias: {
