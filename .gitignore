@@ -38,3 +38,6 @@ out/
 # SQLite
 *.sqlite
 *.sqlite-journal
+
+TAURI_MIGRATION.md
+.rules
