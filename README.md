@@ -18,12 +18,12 @@ _Note: The app is very much not in a working state currently. I am iterating on 
 - Real-time preview of your application
 - Git integration for version control
 - Support for multiple LLM providers (OpenAI, Anthropic, Google)
-- Local model support via Ollama and LM Studio
+- Local model support
 - SQLite database for persistent storage
 
 ## Tech Stack
 
-- **Framework**: Electron 35+
+- **Desktop Framework**: Tauri 2.x
 - **Frontend**:
   - Vue 3 with Composition API
   - TailwindCSS for styling
@@ -46,29 +46,20 @@ cd mimir
 
 # Install dependencies
 npm install
-
-# Start the application in development mode
-npm run dev
 ```
 
 ## Building for Production
 
 ```bash
-# Build the application
-npm run build
-
-# Package the application
-npm run package
-
-# Create distributables for your platform
-npm run make
+# Build the application bundle
+npm run tauri build
 ```
 
 ## Development
 
 ```bash
-# Run in development mode
-npm run dev
+# Run the web app + Tauri backend
+npm run tauri dev
 
 # Lint the codebase
 npm run lint
