@@ -2,7 +2,7 @@
   "name": "mimir",
   "version": "1.0.0",
   "description": "AI-powered code editing desktop application",
-  "main": ".vite/build/main.js",
+  "main": ".vite/build/index.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build && electron-forge package",
