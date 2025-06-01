@@ -2,6 +2,9 @@
 
 AI-powered prototyping tool. Work with AI to generate useful boilerplate to hack on.
 
+![image](https://github.com/user-attachments/assets/9f38c50b-1b32-4484-b048-89452bfe1bc0)
+
+
 ## What does this do?
 
 Aspirationally, Mimir is trying to be a desktop app that combines an AI assistant with a live code editor and preview. I've always wanted a tool to speed up my prototyping and boilerplate generation, and everything else available in the wild has fallen short of my own expectations.
